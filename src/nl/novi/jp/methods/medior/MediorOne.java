@@ -19,18 +19,29 @@ public class MediorOne {
 
         System.out.println("De som van 10 en 12 is: " + result);
 
+        // verdubbel
         int doubledResult = doubleNumber(result);
 
         System.out.println(result + " verdubbeld is: " + doubledResult);
+
+        // kwadrateer
+        int squareResult = squareNumber(result);
+
+        System.out.println(result + " gekwadrateerd is: " + squareResult);
     }
 
     public static int calculateSum(int firstNumber, int secondNumber) {
+
         return firstNumber + secondNumber;
     }
 
     public static int doubleNumber(int number) {
+
         return number * 2;
     }
 
+    public static int squareNumber(int number) {
 
+        return number * number;
+    }
 }

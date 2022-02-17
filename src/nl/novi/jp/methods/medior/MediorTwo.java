@@ -8,11 +8,24 @@ package nl.novi.jp.methods.medior;
  */
 public class MediorTwo {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//       int age = 25;
+//       if (isOldEnough(age)) {
+//           printProceed();
+//       } else {
+//           printUnderAgeWarning();
+//        }
+//    }
 
+    public static void main(String[] args) {
+        if (isOldEnough(14)) {
+            printProceed();
+        } else {
+            printUnderAgeWarning();
+        }
     }
 
-    public  static boolean isOldEnough(int age) {
+    public static boolean isOldEnough(int age) {
         if(age > 17) {
             return true;
         } else {
