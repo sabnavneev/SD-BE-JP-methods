@@ -72,7 +72,7 @@ public class MediorFour {
     }
 
     //TODO Maak deze methode af.
-    public static void printNumbers() {
+    public static void printNumbers(int number) {
 
     }
 
